@@ -1,0 +1,45 @@
+
+netflix.com
+
+44.237.234.25	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+44.234.232.238	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+44.242.60.85	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+2600:1f14:62a:de83:c61a:d6e:18b0:65f7	IPv6	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+2600:1f14:62a:de84:880a:88cc:a16:5423	IPv6	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+2600:1f14:62a:de85:d7:e7a1:8f7d:f6f5	IPv6	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+
+
+-----------------------------------------------------------------------------------------------
+
+cisco.com
+
+	IP address	Type	Hosted by	Location
+72.163.4.185	IPv4	Hosted by CISCO SYSTEMS, INC. CISCO SYSTEMS, INC.	United States of America
+2001:420:1101:1::185	IPv6	Hosted by CISCO SYSTEMS, INC. CISCO SYSTEMS, INC.	United States of America
+
+-----------------------------------------------------------------------------------------------
+Tesla .com
+
+
+IP address	Type	Hosted by	Location
+104.89.118.48	IPv4	Hosted by Akamai Technologies, Inc. Akamai Technologies, Inc.	Singapore
+104.85.4.91	IPv4	Hosted by Akamai Technologies, Inc. Akamai Technologies, Inc.	Netherlands
+96.16.108.43	IPv4	Hosted by Akamai Technologies, Inc. Akamai Technologies, Inc.	United Kingdom of Great Britain and Northern Ireland
+23.220.132.93	IPv4	Hosted by Akamai Technologies, Inc. Akamai Technologies, Inc.	United States of America
+23.218.192.46	IPv4	Hosted by Akamai Technologies, Inc. Akamai Technologies, Inc.	United States of America
+
+-----------------------------------------------------------------------------------------------
+
+walmart.com
+
+	IP address	Type	Hosted by	Location
+96.16.68.136	IPv4	Hosted by Akamai Technologies, Inc. Akamai Technologies, Inc.	United States of America
+
+
+-----------------------------------------------------------------------------------------------
+
+meta.com
+
+	IP address	Type	Hosted by	Location
+157.240.22.19	IPv4	Hosted by Facebook, Inc. Facebook, Inc.	United States of America
+2a03:2880:f031:12:face:b00c:0:2	IPv6	Hosted by Facebook, Inc. Facebook, Inc.	United States of America

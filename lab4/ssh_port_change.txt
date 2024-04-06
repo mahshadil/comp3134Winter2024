@@ -1,0 +1,21 @@
+ 
+
+
+Update the Server Firewall:
+sudo ufw allow 2222/tcp
+
+
+Restart the SSH Service:
+sudo service sshd restart
+
+
+Test the New SSH Port:
+ssh -p 2222 username@server_ip
+
+
+Update the firewall to remove the rule for the new port and ensure port 22 is allowed.
+To remove the custom rule, use: 
+sudo ufw delete allow 2222/tcp
+
+Make sure the default SSH port is allowed:
+ sudo ufw allow 22/tcp

@@ -1,0 +1,115 @@
+Last login: Fri Jan 26 14:48:44 on ttys006
+mahshadelanlou@Mahshads-MacBook-Air ~ % ssh root@138.197.175.128
+The authenticity of host '138.197.175.128 (138.197.175.128)' can't be established.
+ED25519 key fingerprint is SHA256:7pFAZnlWJ4mcVqcLPLQchK1LzQ7v+DGFRAiWKQHagp4.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '138.197.175.128' (ED25519) to the list of known hosts.
+root@138.197.175.128's password: 
+Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.15.0-83-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Fri Feb  2 17:18:25 UTC 2024
+
+  System load:  0.0                Users logged in:       0
+  Usage of /:   11.9% of 24.05GB   IPv4 address for eth0: 138.197.175.128
+  Memory usage: 59%                IPv4 address for eth0: 10.20.0.5
+  Swap usage:   0%                 IPv4 address for eth1: 10.118.0.2
+  Processes:    110
+
+Expanded Security Maintenance for Applications is not enabled.
+
+58 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+*** System restart required ***
+********************************************************************************
+
+Welcome to DigitalOcean's 1-Click LAMP Droplet.
+To keep this Droplet secure, the UFW firewall is enabled.
+All ports are BLOCKED except 22 (SSH), 80 (HTTP), and 443 (HTTPS).
+
+In a web browser, you can view:
+ * The LAMP 1-Click Quickstart guide: https://do.co/3gY97ha#start
+ * Your LAMP website: http://138.197.175.128
+
+On the server:
+ * The default web root is located at /var/www/html
+ * If you're using the embedded database, the MySQL root password
+   is saved in /root/.digitalocean_password. If you've opted in to
+   using a DBaaS instance with DigitalOcean, you will find your
+   credentials written to /root/.digitalocean_dbaas_credentials
+   and you will have access to a DATABASE_URL environment variable
+   holding your database connection string.
+ * Certbot is preinstalled. Run it to configure HTTPS. See
+   https://do.co/3gY97ha#enable-https for more detail.
+
+For help and more information, visit https://do.co/3gY97ha
+
+********************************************************************************
+To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
+Last login: Tue Jan 30 19:38:18 2024 from 198.211.111.194
+root@comp3134Winter2024:~# apt-get update
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Hit:2 http://mirrors.digitalocean.com/ubuntu jammy InRelease                   
+Get:3 http://mirrors.digitalocean.com/ubuntu jammy-updates InRelease [119 kB]  
+Hit:4 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease  
+Hit:5 http://mirrors.digitalocean.com/ubuntu jammy-backports InRelease         
+Hit:6 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy InRelease       
+Get:7 http://mirrors.digitalocean.com/ubuntu jammy-updates/main amd64 Packages [1326 kB]
+Get:8 http://mirrors.digitalocean.com/ubuntu jammy-updates/main Translation-en [268 kB]
+Get:9 http://mirrors.digitalocean.com/ubuntu jammy-updates/universe amd64 Packages [1042 kB]
+Fetched 2864 kB in 8s (362 kB/s)                         
+Reading package lists... Done
+root@comp3134Winter2024:~# apt-get install apache2-utils
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+apache2-utils is already the newest version (2.4.52-1ubuntu4.7).
+0 upgraded, 0 newly installed, 0 to remove and 57 not upgraded.
+root@comp3134Winter2024:~# ping google.com
+PING google.com (142.251.41.78) 56(84) bytes of data.
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=1 ttl=120 time=1.70 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=2 ttl=120 time=0.498 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=3 ttl=120 time=0.789 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=4 ttl=120 time=0.532 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=5 ttl=120 time=0.565 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=6 ttl=120 time=0.573 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=7 ttl=120 time=0.596 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=8 ttl=120 time=0.586 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=9 ttl=120 time=0.562 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=10 ttl=120 time=0.559 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=11 ttl=120 time=0.634 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=12 ttl=120 time=0.549 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=13 ttl=120 time=0.555 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=14 ttl=120 time=0.525 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=15 ttl=120 time=0.528 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=16 ttl=120 time=0.481 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=17 ttl=120 time=0.519 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=18 ttl=120 time=0.595 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=19 ttl=120 time=0.900 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=20 ttl=120 time=0.560 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=21 ttl=120 time=0.609 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=22 ttl=120 time=0.500 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=23 ttl=120 time=0.511 ms
+^C
+--- google.com ping statistics ---
+23 packets transmitted, 23 received, 0% packet loss, time 22031ms
+rtt min/avg/max/mdev = 0.481/0.627/1.703/0.246 ms
+root@comp3134Winter2024:~# ping google.com -w 3
+PING google.com (142.251.41.78) 56(84) bytes of data.
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=1 ttl=120 time=1.71 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=2 ttl=120 time=0.576 ms
+64 bytes from yyz10s20-in-f14.1e100.net (142.251.41.78): icmp_seq=3 ttl=120 time=0.544 ms
+
+--- google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2003ms
+rtt min/avg/max/mdev = 0.544/0.942/1.706/0.540 ms
+root@comp3134Winter2024:~# 

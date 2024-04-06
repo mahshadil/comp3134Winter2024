@@ -1,0 +1,88 @@
+Last login: Fri Feb  2 12:17:17 on ttys001
+mahshadelanlou@Mahshads-MacBook-Air ~ % ping google.com
+PING google.com (142.251.41.46): 56 data bytes
+64 bytes from 142.251.41.46: icmp_seq=0 ttl=119 time=3.388 ms
+64 bytes from 142.251.41.46: icmp_seq=1 ttl=119 time=6.422 ms
+64 bytes from 142.251.41.46: icmp_seq=2 ttl=119 time=4.064 ms
+64 bytes from 142.251.41.46: icmp_seq=3 ttl=119 time=5.713 ms
+64 bytes from 142.251.41.46: icmp_seq=4 ttl=119 time=5.531 ms
+64 bytes from 142.251.41.46: icmp_seq=5 ttl=119 time=5.209 ms
+64 bytes from 142.251.41.46: icmp_seq=6 ttl=119 time=5.323 ms
+64 bytes from 142.251.41.46: icmp_seq=7 ttl=119 time=4.643 ms
+64 bytes from 142.251.41.46: icmp_seq=8 ttl=119 time=3.425 ms
+64 bytes from 142.251.41.46: icmp_seq=9 ttl=119 time=7.165 ms
+64 bytes from 142.251.41.46: icmp_seq=10 ttl=119 time=4.141 ms
+64 bytes from 142.251.41.46: icmp_seq=11 ttl=119 time=7.545 ms
+^C
+--- google.com ping statistics ---
+12 packets transmitted, 12 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 3.388/5.214/7.545/1.304 ms
+mahshadelanlou@Mahshads-MacBook-Air ~ % ping google.com -w 3
+ping: invalid option -- w
+usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+            [-g sweepminsize] [-h sweepincrsize] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+            [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+            [-z tos] host
+       ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+            [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+            [-z tos] mcast-group
+Apple specific options (to be specified before mcast-group or host like all options)
+            -b boundif           # bind the socket to the interface
+            -k traffic_class     # set traffic class socket option
+            -K net_service_type  # set traffic class socket options
+            --apple-connect       # call connect(2) in the socket
+            --apple-time          # display current time
+mahshadelanlou@Mahshads-MacBook-Air ~ % ping google.com -w 3
+ping: invalid option -- w
+usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+            [-g sweepminsize] [-h sweepincrsize] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+            [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+            [-z tos] host
+       ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+            [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+            [-z tos] mcast-group
+Apple specific options (to be specified before mcast-group or host like all options)
+            -b boundif           # bind the socket to the interface
+            -k traffic_class     # set traffic class socket option
+            -K net_service_type  # set traffic class socket options
+            --apple-connect       # call connect(2) in the socket
+            --apple-time          # display current time
+mahshadelanlou@Mahshads-MacBook-Air ~ % ping google.com -w 5
+ping: invalid option -- w
+usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+            [-g sweepminsize] [-h sweepincrsize] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+            [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+            [-z tos] host
+       ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+            [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+            [-z tos] mcast-group
+Apple specific options (to be specified before mcast-group or host like all options)
+            -b boundif           # bind the socket to the interface
+            -k traffic_class     # set traffic class socket option
+            -K net_service_type  # set traffic class socket options
+            --apple-connect       # call connect(2) in the socket
+            --apple-time          # display current time
+mahshadelanlou@Mahshads-MacBook-Air ~ % ping google.com -w 4                 
+ping: invalid option -- w
+usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+            [-g sweepminsize] [-h sweepincrsize] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+            [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+            [-z tos] host
+       ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+            [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+            [-z tos] mcast-group
+Apple specific options (to be specified before mcast-group or host like all options)
+            -b boundif           # bind the socket to the interface
+            -k traffic_class     # set traffic class socket option
+            -K net_service_type  # set traffic class socket options
+            --apple-connect       # call connect(2) in the socket
+            --apple-time          # display current time
+mahshadelanlou@Mahshads-MacBook-Air ~ % 
